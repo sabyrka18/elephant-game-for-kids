@@ -13,11 +13,11 @@ export const Counter = ({ onFinish }: Props) => {
   }
 
   return (
-    <>
+    <div>
       <h1>Нажми на кнопку 4 раза, чтобы увидеть слона</h1>
       <button onClick={handleClick}>
         + {value}
       </button>
-    </>
+    </div>
   )
 }
